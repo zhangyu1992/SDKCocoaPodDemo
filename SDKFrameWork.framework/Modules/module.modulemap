@@ -1,0 +1,6 @@
+framework module SDKFrameWork {
+  umbrella header "SDKFrameWork.h"
+
+  export *
+  module * { export * }
+}
