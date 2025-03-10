@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DemoZhangZhang"
-  s.version      = "1.0.6"
+  s.version      = "1.0.7"
   s.summary      = "my test demo"
 
   # This description is used to generate tags and improve search results.
@@ -82,7 +82,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/zhangyu1992/SDKCocoaPodDemo.git", :tag => "1.0.6" }
+  s.source       = { :git => "https://github.com/zhangyu1992/SDKCocoaPodDemo.git", :tag => "1.0.7" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -97,8 +97,8 @@ Pod::Spec.new do |s|
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
-  #s.vendored_frameworks = 'Framework/CLMergeSDK.framework'
-  #s.frameworks = 'Foundation', 'UIKit'
+  s.vendored_frameworks = 'Framework/WebRTC.framework'
+  s.frameworks = 'Foundation', 'UIKit'
 
 
 
@@ -140,8 +140,8 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
 
-  #s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  #s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
 
 
 end
