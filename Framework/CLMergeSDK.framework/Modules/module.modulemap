@@ -1,0 +1,6 @@
+framework module CLMergeSDK {
+  umbrella header "CLMergeSDK.h"
+
+  export *
+  module * { export * }
+}
